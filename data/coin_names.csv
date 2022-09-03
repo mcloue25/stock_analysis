@@ -1,0 +1,1038 @@
+name,symbol,currency
+Bitcoin,BTC,USD
+Ethereum,ETH,USD
+Binance Coin,BNB,USD
+Tether,USDT,USD
+Cardano,ADA,USD
+Polkadot,DOT,USD
+XRP,XRP,USD
+Uniswap,UNI,USD
+Litecoin,LTC,USD
+Chainlink,LINK,USD
+THETA,THETA,USD
+USD Coin,USDC,USD
+Bitcoin Cash,BCH,USD
+Stellar,XLM,USD
+Terra,LUNA,USD
+Wrapped Bitcoin,WBTC,USD
+Dogecoin,DOGE,USD
+VeChain,VET,USD
+Crypto.com Coin,CRO,USD
+Filecoin,FIL,USD
+Aave,AAVE,USD
+TRON,TRX,USD
+IOTA,MIOTA,USD
+Cosmos,ATOM,USD
+Solana,SOL,USD
+EOS,EOS,USD
+Avalanche,AVAX,USD
+Monero,XMR,USD
+Bitcoin SV,BSV,USD
+Kusama,KSM,USD
+FTX Token,FTT,USD
+Tezos,XTZ,USD
+NEM,XEM,USD
+BitTorrent,BTT,USD
+Algorand,ALGO,USD
+Neo,NEO,USD
+Chiliz,CHZ,USD
+Dai,DAI,USD
+Huobi Token,HT,USD
+Hedera Hashgraph,HBAR,USD
+Elrond,EGLD,USD
+SushiSwap,SUSHI,USD
+Synthetix,SNX,USD
+Dash,DASH,USD
+Theta Fuel,TFUEL,USD
+UNUS SED LEO,LEO,USD
+The Graph,GRT,USD
+Decred,DCR,USD
+Maker,MKR,USD
+Zilliqa,ZIL,USD
+Compound,COMP,USD
+Polygon,MATIC,USD
+NEAR Protocol,NEAR,USD
+Enjin Coin,ENJ,USD
+Ravencoin,RVN,USD
+Basic Attention Token,BAT,USD
+Pundi X,NPXS,USD
+Zcash,ZEC,USD
+PancakeSwap,CAKE,USD
+Harmony,ONE,USD
+Decentraland,MANA,USD
+Nexo,NEXO,USD
+UMA,UMA,USD
+Ethereum Classic,ETC,USD
+Bancor,BNT,USD
+SwissBorg,CHSB,USD
+THORChain,RUNE,USD
+yearn.finance,YFI,USD
+Holo,HOT,USD
+Reserve Rights,RSR,USD
+ICON,ICX,USD
+Celsius,CEL,USD
+0x,ZRX,USD
+Waves,WAVES,USD
+Fantom,FTM,USD
+Ren,REN,USD
+Siacoin,SC,USD
+Revain,REV,USD
+Voyager Token,VGX,USD
+Ontology,ONT,USD
+DigiByte,DGB,USD
+Dent,DENT,USD
+OKB,OKB,USD
+IOST,IOST,USD
+OMG Network,OMG,USD
+Paxos Standard,PAX,USD
+Celo,CELO,USD
+1inch,1INCH,USD
+Nano,NANO,USD
+Nano,NANO,USD
+Qtum,QTUM,USD
+Loopring,LRC,USD
+Ocean Protocol,OCEAN,USD
+Curve DAO Token,CRV,USD
+Kyber Network,KNC,USD
+Horizen,ZEN,USD
+MVL,MVL,USD
+Bitcoin Gold,BTG,USD
+Lisk,LSK,USD
+Verge,XVG,USD
+Fetch.ai,FET,USD
+Energy Web Token,EWT,USD
+Quant,QNT,USD
+Ankr,ANKR,USD
+Golem,GLM,USD
+Bitpanda Ecosystem Token,BEST,USD
+Electroneum,ETN,USD
+Celer Network,CELR,USD
+StormX,STMX,USD
+Augur,REP,USD
+Mixin,XIN,USD
+IoTeX,IOTX,USD
+Venus,XVS,USD
+FunFair,FUN,USD
+Status,SNT,USD
+WAX,WAXP,USD
+Telcoin,TEL,USD
+Kin,KIN,USD
+COTI,COTI,USD
+Stacks,STX,USD
+Kava.io,KAVA,USD
+Polymath,POLY,USD
+Swipe,SXP,USD
+MaidSafeCoin,MAID,USD
+Civic,CVC,USD
+TrueUSD,TUSD,USD
+Band Protocol,BAND,USD
+Ardor,ARDR,USD
+Steem,STEEM,USD
+Orchid,OXT,USD
+Aragon,ANT,USD
+QuarkChain,QKC,USD
+OriginTrail,TRAC,USD
+Utrust,UTK,USD
+Serum,SRM,USD
+MediBloc,MED,USD
+Hifi Finance,MFT,USD
+Storj,STORJ,USD
+Origin Protocol,OGN,USD
+BitShares,BTS,USD
+Numeraire,NMR,USD
+Komodo,KMD,USD
+Bitcoin Diamond,BCD,USD
+Ampleforth,AMPL,USD
+SingularityNET,AGI,USD
+Gnosis,GNO,USD
+Stratis,STRAX,USD
+Ark,ARK,USD
+TomoChain,TOMO,USD
+IRISnet,IRIS,USD
+PAC Global,PAC,USD
+Wanchain,WAN,USD
+ABBC Coin,ABBC,USD
+district0x,DNT,USD
+aelf,ELF,USD
+Syscoin,SYS,USD
+ZB Token,ZB,USD
+CyberVein,CVT,USD
+iExec RLC,RLC,USD
+Loom Network,LOOM,USD
+Haven Protocol,XHV,USD
+Power Ledger,POWR,USD
+Unibright,UBT,USD
+Hellenic Coin,HNC,USD
+Populous,PPT,USD
+Bytom,BTM,USD
+AdEx Network,ADX,USD
+Divi,DIVI,USD
+Centrality,CENNZ,USD
+Request,REQ,USD
+EFFORCE,WOZX,USD
+ReddCoin,RDD,USD
+Aion,AION,USD
+Gas,GAS,USD
+Elastos,ELA,USD
+LBRY Credits,LBC,USD
+Energi,NRG,USD
+Streamr,DATA,USD
+MonaCoin,MONA,USD
+WazirX,WRX,USD
+Gemini Dollar,GUSD,USD
+Metal,MTL,USD
+Refereum,RFR,USD
+Selfkey,KEY,USD
+SOLVE,SOLVE,USD
+Ignis,IGNIS,USD
+Zenon,ZNN,USD
+Nimiq,NIM,USD
+Waltonchain,WTC,USD
+NKN,NKN,USD
+DREP,DREP,USD
+Beam,BEAM,USD
+Bytecoin,BCN,USD
+Bluzelle,BLZ,USD
+Cartesi,CTSI,USD
+Sentinel Protocol,UPP,USD
+Nexus,NXS,USD
+KuCoin Shares,KCS,USD
+Firo,FIRO,USD
+ARPA Chain,ARPA,USD
+AirSwap,AST,USD
+Endor Protocol,EDR,USD
+NULS,NULS,USD
+Function X,FX,USD
+WaykiChain,WICC,USD
+PIVX,PIVX,USD
+RChain,REV,USD
+Constellation,DAG,USD
+Switcheo,SWTH,USD
+Phoenix Global,PHB,USD
+Dragonchain,DRGN,USD
+pNetwork,PNT,USD
+Fusion,FSN,USD
+Groestlcoin,GRS,USD
+Quantstamp,QSP,USD
+Cindicator,CND,USD
+FIO Protocol,FIO,USD
+Cortex,CTXC,USD
+Ripio Credit Network,RCN,USD
+Cocos-BCX,COCOS,USD
+Sport and Leisure,SNL,USD
+Measurable Data Token,MDT,USD
+Einsteinium,EMC2,USD
+v.systems,VSYS,USD
+Aeternity,AE,USD
+GameCredits,GAME,USD
+Aurora,AOA,USD
+Zap,ZAP,USD
+GXChain,GXC,USD
+VITE,VITE,USD
+Enzyme Finance,MLN,USD
+LockTrip,LOC,USD
+Lympo,LYM,USD
+STASIS EURO,EURS,USD
+Dock,DOCK,USD
+Kleros,PNK,USD
+Nebulas,NAS,USD
+GoChain,GO,USD
+MCO,MCO,USD
+Navcoin,NAV,USD
+Propy,PRO,USD
+Skycoin,SKY,USD
+CasinoCoin,CSC,USD
+Dentacoin,DCN,USD
+HyperCash,HC,USD
+BTU Protocol,BTU,USD
+DMarket,DMT,USD
+Mithril,MITH,USD
+Nxt,NXT,USD
+Phantasma,SOUL,USD
+LATOKEN,LA,USD
+0Chain,ZCN,USD
+Steem Dollars,SBD,USD
+Wirex Token,WXT,USD
+Flexacoin,FXC,USD
+Sentivate,SNTVT,USD
+All Sports,SOC,USD
+Neblio,NEBL,USD
+Apollo Currency,APL,USD
+Crypterium,CRPT,USD
+Grin,GRIN,USD
+Project Pai,PAI,USD
+Presearch,PRE,USD
+Vertcoin,VTC,USD
+Wabi,WABI,USD
+Veritaseum,VERI,USD
+Nucleus Vision,NCASH,USD
+Ambrosus,AMB,USD
+TenX,PAY,USD
+Raiden Network Token,RDN,USD
+TokenClub,TCT,USD
+BnkToTheFuture,BFT,USD
+Bankera,BNK,USD
+DigixDAO,DGD,USD
+Dovu,DOV,USD
+#MetaHash,MHC,USD
+TE-FOOD,TONE,USD
+Gifto,GTO,USD
+PCHAIN,PI,USD
+Circuits of Value,COVAL,USD
+Credits,CS,USD
+AppCoins,APPC,USD
+Bread,BRD,USD
+QASH,QASH,USD
+Metronome,MET,USD
+Genesis Vision,GVT,USD
+OAX,OAX,USD
+DeepBrain Chain,DBC,USD
+Loki,LOKI,USD
+High Performance Blockchain,HPB,USD
+BABB,BAX,USD
+Dero,DERO,USD
+POA,POA,USD
+SIRIN LABS Token,SRN,USD
+Digitex Futures,DGTX,USD
+QLC Chain,QLC,USD
+LGO Token,LGO,USD
+WePower,WPR,USD
+Blox,CDT,USD
+PumaPay,PMA,USD
+Obyte,GBYTE,USD
+Dynamic,DYN,USD
+XYO,XYO,USD
+Blocknet,BLOCK,USD
+Buggyra Coin Zero,BCZERO,USD
+Namecoin,NMC,USD
+Moeda Loyalty Points,MDA,USD
+Matrix AI Network,MAN,USD
+SALT,SALT,USD
+Quantum Resistant Ledger,QRL,USD
+Cardstack,CARD,USD
+CyberMiles,CMT,USD
+TrueChain,TRUE,USD
+Egretia,EGT,USD
+Metaverse ETP,ETP,USD
+Factom,FCT,USD
+Maximine Coin,MXM,USD
+Hydro Protocol,HOT,USD
+Viacoin,VIA,USD
+Everex,EVX,USD
+YOYOW,YOYOW,USD
+Viberate,VIB,USD
+Tachyon Protocol,IPX,USD
+Agrello,DLT,USD
+MediShares,MDS,USD
+Ruff,RUFF,USD
+FLO,FLO,USD
+ProximaX,XPX,USD
+Monetha,MTH,USD
+Achain,ACT,USD
+SONM,SNM,USD
+SingularDTV,SNGLS,USD
+DigitalNote,XDN,USD
+Arcblock,ABT,USD
+PRIZM,PZM,USD
+Ubiq,UBQ,USD
+PressOne,PRS,USD
+BLOCKv,VEE,USD
+B2BX,B2B,USD
+DATA,DTA,USD
+Peercoin,PPC,USD
+IQeon,IQN,USD
+Banano,BAN,USD
+THEKEY,TKY,USD
+eBoost,EBST,USD
+Santiment Network Token,SAN,USD
+ROOBEE,ROOBEE,USD
+Phore,PHR,USD
+Genaro Network,GNX,USD
+SmartMesh,SMT,USD
+Essentia,ESS,USD
+PlatonCoin,PLTC,USD
+Callisto Network,CLO,USD
+OneLedger,OLT,USD
+Internxt,INXT,USD
+Bibox Token,BIX,USD
+Restart Energy MWAT,MWAT,USD
+Stealthcoin,XST,USD
+IoT Chain,ITC,USD
+Seele-N,SEELE,USD
+SwftCoin,SWFTC,USD
+Monolith,TKN,USD
+Peculium,PCL,USD
+Odyssey,OCN,USD
+Time New Bank,TNB,USD
+DAOstack,GEN,USD
+Pillar,PLR,USD
+Covesting,COV,USD
+carVertical,CV,USD
+Qubitica,QBIT,USD
+SmartCash,SMART,USD
+Burst,BURST,USD
+Spectre.ai Dividend Token,SXDT,USD
+Tokenomy,TEN,USD
+SpaceChain,SPC,USD
+UCA Coin,UCA,USD
+Particl,PART,USD
+Mobius,MOBI,USD
+Wings,WINGS,USD
+Content Neutrality Network,CNN,USD
+eBitcoin,EBTC,USD
+Feathercoin,FTC,USD
+Aeon,AEON,USD
+Lightning Bitcoin,LBTC,USD
+VIBE,VIBE,USD
+Opacity,OPCT,USD
+CPChain,CPC,USD
+PotCoin,POT,USD
+Lamden,TAU,USD
+Mysterium,MYST,USD
+Gulden,NLG,USD
+Skrumble Network,SKM,USD
+Credo,CREDO,USD
+DOC.COM,MTC,USD
+ERC20,ERC20,USD
+EDUCare,EKT,USD
+Game.com,GTC,USD
+Remme,REM,USD
+SunContract,SNC,USD
+Cred,LBA,USD
+INT,INT,USD
+Myriad,XMY,USD
+I/O Coin,IOC,USD
+ContentBox,BOX,USD
+LiteDoge,LDOGE,USD
+Ivy,IVY,USD
+Cappasity,CAPP,USD
+Litecoin Cash,LCC,USD
+Swarm,SWM,USD
+DEX,DEX,USD
+AXPR,AXPR,USD
+Datum,DAT,USD
+Investcoin,INVC,USD
+Vexanium,VEX,USD
+CryptoPing,PING,USD
+DECOIN,DTEP,USD
+Crown,CRW,USD
+Acute Angle Cloud,AAC,USD
+ChatCoin,CHAT,USD
+BitGreen,BITG,USD
+YEE,YEE,USD
+Omni,OMNI,USD
+BlackCoin,BLK,USD
+ToaCoin,TOA,USD
+EXRNchain,EXRN,USD
+KickToken,KICK,USD
+Gridcoin,GRC,USD
+QunQun,QUN,USD
+OKCash,OK,USD
+CannabisCoin,CANN,USD
+DAEX,DAX,USD
+DMM: Governance,DMG,USD
+Cube,AUTO,USD
+Add.xyz,PLT,USD
+Substratum,SUB,USD
+Pinkcoin,PINK,USD
+Alphacat,ACAT,USD
+CoTrader,COT,USD
+BitCapitalVendor,BCV,USD
+DeepOnion,ONION,USD
+Novacoin,NVC,USD
+Primecoin,XPM,USD
+OneRoot Network,RNT,USD
+Energo,TSL,USD
+Medicalchain,MTN,USD
+Rialto,XRL,USD
+Tierion,TNT,USD
+VeriCoin,VRC,USD
+BitcoinZ,BTCZ,USD
+Enigma,ENG,USD
+MyWish,WISH,USD
+Blackmoon,BMC,USD
+Patientory,PTOY,USD
+Breezecoin,BRZE,USD
+LuckChain,BASH,USD
+Quark,QRK,USD
+Pascal,PASC,USD
+Plair,PLA,USD
+Curecoin,CURE,USD
+MobileGo,MGO,USD
+Denarius,D,USD
+Dimecoin,DIME,USD
+IHT Real Estate Protocol,IHT,USD
+CommerceBlock,CBT,USD
+NuBits,USNBT,USD
+Expanse,EXP,USD
+Eternity,ENT,USD
+AI Doctor,AIDOC,USD
+HempCoin,THC,USD
+HiCoin,XHI,USD
+CEEK VR,CEEK,USD
+ZClassic,ZCL,USD
+TransferCoin,TX,USD
+LUXCoin,LUX,USD
+Rise,RISE,USD
+Asch,XAS,USD
+PayPie,PPP,USD
+DAPS Coin,DAPS,USD
+Giga Watt Token,WTT,USD
+Bean Cash,BITB,USD
+Primas,PST,USD
+Bismuth,BIS,USD
+LNX Protocol,LNX,USD
+MonetaryUnit,MUE,USD
+Sharder,SS,USD
+Waves Community Token,WCT,USD
+Zero,ZER,USD
+Bitcoin Private,BTCP,USD
+eosDAC,EOSDAC,USD
+Aventus,AVT,USD
+TrueFlip,TFL,USD
+ATLANT,ATL,USD
+FujiCoin,FJC,USD
+BitBoost,BBT,USD
+Banca,BANCA,USD
+Renewable Electronic Energy Coin,REEC,USD
+Xaurum,XAUR,USD
+Hedge,HDG,USD
+CoinFi,COFI,USD
+0xBitcoin,0xBTC,USD
+CloakCoin,CLOAK,USD
+XTRABYTES,XBY,USD
+EDC Blockchain,EDC,USD
+TrezarCoin,TZC,USD
+Capricoin+,CPS,USD
+TraDove B2BCoin,BBC,USD
+Humaniq,HMQ,USD
+Bottos,BTO,USD
+Maecenas,ART,USD
+Mercury,MER,USD
+Lunyr,LUN,USD
+Megacoin,MEC,USD
+GeoCoin,GEO,USD
+FNKOS,FNKOS,USD
+Adshares,ADS,USD
+REAL,REAL,USD
+Ixcoin,IXC,USD
+ZrCoin,ZRC,USD
+Carboncoin,CARBON,USD
+The ChampCoin,TCC,USD
+GPU Coin,GPU,USD
+Dragon Coins,DRG,USD
+GlobalBoost-Y,BSTY,USD
+Etherparty,FUEL,USD
+Bitcoin Plus,XBC,USD
+Pakcoin,PAK,USD
+DomRaider,DRT,USD
+Trollcoin,TROLL,USD
+Freicoin,FRC,USD
+Pandacoin,PND,USD
+adToken,ADT,USD
+Boolberry,BBR,USD
+Flixxo,FLIXX,USD
+DECENT,DCT,USD
+Brickblock,BBK,USD
+Playkey,PKT,USD
+Cosmo Coin,COSM,USD
+LanaCoin,LANA,USD
+IXT,IXT,USD
+Bitcoin Atom,BCA,USD
+ShipChain,SHIP,USD
+EuropeCoin,ERC,USD
+Stox,STX,USD
+Bounty0x,BNTY,USD
+Scry.info,DDD,USD
+TokenPay,TPAY,USD
+Neurotoken,NTK,USD
+DDKoin,DDK,USD
+SIBCoin,SIB,USD
+FuzeX,FXT,USD
+DubaiCoin,DBIX,USD
+Electrify.Asia,ELEC,USD
+HitCoin,HTC,USD
+Bezant,BZNT,USD
+Delphy,DPY,USD
+ExclusiveCoin,EXCL,USD
+Orbitcoin,ORB,USD
+Ink,INK,USD
+Indorse Token,IND,USD
+Ormeus Coin,ORMEUS,USD
+Shorty,SHORTY,USD
+Edgeless,EDG,USD
+Zeusshield,ZSC,USD
+Winco,WCO,USD
+Hiveterminal Token,HVN,USD
+Hexx,HXX,USD
+Blockmason Credit Protocol,BCPT,USD
+Colossuscoin V2,CV2,USD
+Chronobank,TIME,USD
+Trinity Network Credit,TNC,USD
+BitDegree,BDG,USD
+Bezop,BEZ,USD
+Rentberry,BERRY,USD
+EventChain,EVC,USD
+MetalCoin,METAL,USD
+Hacken,HKN,USD
+Ecobit,ECOB,USD
+FlypMe,FYP,USD
+Lendingblock,LND,USD
+Bullion,CBX,USD
+Friendz,FDZ,USD
+Sakura Bloom,SKB,USD
+GoldMint,MNTP,USD
+Blue Protocol,BLUE,USD
+MEXC Token,MEXC,USD
+ATMChain,ATM,USD
+Internet of People,IOP,USD
+Po.et,POE,USD
+BZEdge,BZE,USD
+X8X Token,X8X,USD
+HelloGold,HGT,USD
+HeroNode,HER,USD
+Pesetacoin,PTC,USD
+Zennies,ZENI,USD
+Ryo Currency,RYO,USD
+AudioCoin,ADC,USD
+Merebel,MERI,USD
+Blocktix,TIX,USD
+Primalbase Token,PBT,USD
+MintMe.com Coin,MINTME,USD
+Scorum Coins,SCR,USD
+ChessCoin,CHESS,USD
+Dropil,DROP,USD
+MyBit,MYB,USD
+Deutsche eMark,DEM,USD
+Maxcoin,MAX,USD
+CoinJanitor,JAN,USD
+BUZZCoin,BUZZ,USD
+Ethereum Meta,ETHM,USD
+DreamTeam Token,DREAM,USD
+Zeepin,ZPT,USD
+Qbao,QBT,USD
+Innova,INN,USD
+Shadow Token,SHDW,USD
+GoNetwork,GOT,USD
+ShadowCash,SDC,USD
+Neutron,NTRN,USD
+Startcoin,START,USD
+Synergy,SNRG,USD
+Opus,OPT,USD
+SwagBucks,BUCKS,USD
+Streamity,STM,USD
+Cryptonite,XCN,USD
+Swap,XWP,USD
+Fortuna,FOTA,USD
+SHIELD,XSH,USD
+GoByte,GBX,USD
+Netko,NETKO,USD
+InsaneCoin,INSN,USD
+EncryptoTel [WAVES],ETT,USD
+Swing,SWING,USD
+Digitalcoin,DGC,USD
+WayGuide,WAY,USD
+Energycoin,ENRG,USD
+NANJCOIN,NANJ,USD
+ION,ION,USD
+Swarm City,SWT,USD
+Bitstar,BITS,USD
+Graft,GRFT,USD
+Starbase,STAR,USD
+OracleChain,OCT,USD
+Terracoin,TRC,USD
+BlueCoin,BLU,USD
+InvestFeed,IFT,USD
+Aston,ATX,USD
+Aeron,ARNX,USD
+Ellaism,ELLA,USD
+BitTokens,BXT,USD
+iEthereum,IETH,USD
+CryptoCarbon,CCRB,USD
+2GIVE,2GIVE,USD
+Happycoin,HPC,USD
+Silverway,SLV,USD
+SafeInsure,SINS,USD
+GCN Coin,GCN,USD
+WMCoin,WMC,USD
+Quantis Network,QUAN,USD
+SproutsExtreme,SPEX,USD
+DopeCoin,DOPE,USD
+Aigang,AIX,USD
+IslaCoin,ISL,USD
+Hackspace Capital,HAC,USD
+Jetcoin,JET,USD
+Kobocoin,KOBO,USD
+Silent Notary,SNTR,USD
+MicroMoney,AMM,USD
+TagCoin,TAG,USD
+Coin Lion,LION,USD
+Pirl,PIRL,USD
+Chronologic,DAY,USD
+Cobinhood,COB,USD
+Tattoocoin (Standard Edition),TSE,USD
+Cryptojacks,CJ,USD
+Photon,PHO,USD
+Motocoin,MOTO,USD
+SRCOIN,SRCOIN,USD
+Ties.DB,TIE,USD
+Leadcoin,LDC,USD
+Nicash,NICASH,USD
+Opal,OPAL,USD
+ParallelCoin,DUO,USD
+Bitcurrency,BTCR,USD
+AquariusCoin,ARCO,USD
+FoldingCoin,FLDC,USD
+SkinCoin,SKIN,USD
+Mao Zedong,MAO,USD
+REOSC,REOSC,USD
+imbrex,REX,USD
+GINcoin,GIN,USD
+Bitcloud,BTDX,USD
+Magi,XMG,USD
+OptiToken,OPTI,USD
+Emerald Crypto,EMD,USD
+Guncoin,GUN,USD
+Storiqa,STQ,USD
+Proton Token,PTT,USD
+Dynamite,DYNMT,USD
+DraftCoin,DFT,USD
+Elacoin,ELC,USD
+KekCoin,KEK,USD
+Bitz,BITZ,USD
+SuperCoin,SUPER,USD
+vSlice,VSL,USD
+PosEx,PEX,USD
+PoSW Coin,POSW,USD
+EvenCoin,EVN,USD
+Adzcoin,ADZ,USD
+BitBar,BTB,USD
+Truegame,TGAME,USD
+Evil Coin,EVIL,USD
+Crowd Machine,CMCT,USD
+Verify,CRED,USD
+Worldcore,WRC,USD
+Nasdacoin,NSD,USD
+Monkey Project,MONK,USD
+Bata,BTA,USD
+KushCoin,KUSH,USD
+Yacoin,YAC,USD
+PopularCoin,POP,USD
+OctoCoin,888,USD
+VULCANO,VULC,USD
+TEAM (TokenStars),TEAM,USD
+Sling,SLING,USD
+Firecoin,FIRE,USD
+Crave,CRAVE,USD
+BitWhite,BTW,USD
+Litecoin Plus,LCP,USD
+MojoCoin,MOJO,USD
+Rimbit,RBT,USD
+Mineum,MNM,USD
+Joulecoin,XJO,USD
+BlockCAT,CAT,USD
+Zetacoin,ZET,USD
+Bitcoin Zero,BZX,USD
+Franko,FRK,USD
+Bitcoin Interest,BCI,USD
+Bolivarcoin,BOLI,USD
+Bela,BELA,USD
+GameBet Coin,GBT,USD
+Ultimate Secure Cash,USC,USD
+Rubies,RBIES,USD
+FirstCoin,FRST,USD
+Eroscoin,ERO,USD
+Kurrent,KURT,USD
+Ratecoin,XRA,USD
+Unitus,UIS,USD
+Xios,XIOS,USD
+Prime-Ex Perpetual,PEXT,USD
+PX,PX,USD
+SteepCoin,STEEP,USD
+BillaryCoin,BLRY,USD
+Universe,UNI,USD
+Unify,UNIFY,USD
+GuccioneCoin,GCC,USD
+Privatix,PRIX,USD
+Bitcoin Red,BTCRED,USD
+Mchain,MAR,USD
+Coin2.1,C2,USD
+Bitzeny,ZNY,USD
+Rupee,RUP,USD
+BeaverCoin,BVC,USD
+BERNcash,BERN,USD
+Spots,SPT,USD
+Niobio Cash,NBR,USD
+iTicoin,ITI,USD
+WARP,WARP,USD
+Universal Currency,UNIT,USD
+LiteBar,LTB,USD
+ATBCoin,ATB,USD
+PureVidz,VIDZ,USD
+GlobalToken,GLT,USD
+Syndicate,SYNX,USD
+SmartCoin,SMC,USD
+ELTCOIN,ELTCOIN,USD
+Paragon,PRG,USD
+Miners' Reward Token,MRT,USD
+GoldBlocks,GB,USD
+Suretly,SUR,USD
+Onix,ONX,USD
+ICOBID,ICOB,USD
+Global Currency Reserve,GCR,USD
+Ethereum Cash,ECASH,USD
+Digital Money Bits,DMB,USD
+Blakecoin,BLC,USD
+Acoin,ACOIN,USD
+GlobalCoin,GLCn,USD
+Theresa May Coin,MAY,USD
+TrumpCoin,TRUMP,USD
+Bitradio,BRO,USD
+Shilling,SH,USD
+PostCoin,POST,USD
+Metal Music Coin,MTLMC3,USD
+TEKcoin,TEK,USD
+Cream,CRM,USD
+VIP Tokens,VIP,USD
+Zurcoin,ZUR,USD
+Uro,URO,USD
+Atonomi,ATMI,USD
+FuzzBalls,FUZZ,USD
+Regalcoin,REC,USD
+Wild Crypto,WILD,USD
+Debitcoin,DBTC,USD
+MindCoin,MND,USD
+Dreamcoin,DRM,USD
+Centurion,CNT,USD
+Moin,MOIN,USD
+CryCash,CRC,USD
+Unrealcoin,URC,USD
+XGOX,XGOX,USD
+Signatum,SIGT,USD
+iBTC,IBTC,USD
+EDRCoin,EDRC,USD
+Beatcoin,XBTS,USD
+GeyserCoin,GSR,USD
+Sativacoin,STV,USD
+TOKYO,TOKC,USD
+Influxcoin,INFX,USD
+Ride My Car,RIDE,USD
+Orlycoin,ORLY,USD
+PayCoin,XPY,USD
+Save and Gain,SANDG,USD
+Jewels,JWL,USD
+Braincoin,BRAIN,USD
+LetItRide,LIR,USD
+ParkByte,PKB,USD
+GoldPieces,GP,USD
+MustangCoin,MST,USD
+AmsterdamCoin,AMS,USD
+PayCon,CON,USD
+PRiVCY,PRIV,USD
+X-Coin,XCO,USD
+BitRent,RNTB,USD
+Matchpool,GUP,USD
+RonPaulCoin,RPC,USD
+MarteXcoin,MXT,USD
+Elementrem,ELE,USD
+PIECoin,PIE,USD
+DNotes,NOTE,USD
+ARBITRAGE,ARB,USD
+SpreadCoin,SPR,USD
+Zonecoin,ZNE,USD
+BowsCoin,BSC,USD
+Californium,CF,USD
+ARbit,ARB,USD
+Thore Cash,TCH,USD
+OsmiumCoin,OS76,USD
+JobsCoin,JOBS,USD
+Bitcoin 21,XBTC21,USD
+Desire,DSR,USD
+Visio,VISIO,USD
+SydPak,SDP,USD
+Xonecoin,XOC,USD
+Zayedcoin,ZYD,USD
+ImpulseCoin,IMPS,USD
+BROTHER,BRAT,USD
+CrevaCoin,CREVA,USD
+Rupaya,RUPX,USD
+Quebecoin,QBC,USD
+HOdlcoin,HODL,USD
+SongCoin,SONG,USD
+Titcoin,TIT,USD
+Destiny,DES,USD
+Taler Coin,TLR,USD
+Litecred,LTCR,USD
+EquiTrader,EQT,USD
+Dollarcoin,DLC,USD
+BitCoal,COAL,USD
+SpeedCash,SCS,USD
+Eurocoin,EUC,USD
+Open Trading Network,OTN,USD
+Cannation,CNNC,USD
+Prime-XI,PXI,USD
+MiloCoin,MILO,USD
+LiteBitcoin,LBTC,USD
+Cabbage,CAB,USD
+TajCoin,TAJ,USD
+RSGPcoin,RSGP,USD
+Veltor,VLT,USD
+NevaCoin,NEVA,USD
+Luna Coin,LUNA,USD
+VectorAI,VEC2,USD
+JavaScript Token,JS,USD
+High Voltage,HVCO,USD
+Bulleon,BUL,USD
+LiteCoin Ultra,LTCU,USD
+Project-X,NANOX,USD
+PLNcoin,PLNC,USD
+Bitvolt,VOLT,USD
+Independent Money System,IMS,USD
+PlatinumBAR,XPTX,USD
+BenjiRolls,BENJI,USD
+Paypex,PAYX,USD
+Dalecoin,DALC,USD
+BriaCoin,BRIA,USD
+WomenCoin,WOMEN,USD
+Dash Green,DASHG,USD
+Wild Beast Block,WBB,USD
+Peerguess,GUESS,USD
+EcoCoin,ECO,USD
+Crystal Clear ,CCT,USD
+Comet,CMT,USD
+SONO,SONO,USD
+NodeCoin,NODC,USD
+iBank,IBANK,USD
+Coinonat,CXT,USD
+SocialCoin,SOCC,USD
+Fintab,FNTB,USD
+RouletteToken,RLT,USD
+Ccore,CCO,USD
+Iconic,ICON,USD
+Experience Points,XP,USD
+VapersCoin,VPRC,USD
+PonziCoin,PONZI,USD
+Argus,ARGUS,USD
+Concoin,CONX,USD
+ArtByte,ABY,USD
+Helpico,HELP,USD
+HarmonyCoin,HMC,USD
+X2,X2,USD
+CRYPTO20,C20,USD
+RON,RON,USD
+Aces,ACES,USD
+ALQO,XLQ,USD
+BUMO,BU,USD
+DEEX,DEEX,USD
+FOIN,FOIN,USD
+Kala,KALA,USD
+LIZA,LIZA,USD
+MOAC,MOAC,USD
+NAGA,NGC,USD
+ODEM,ODE,USD
+Veggie,VEGI,USD
+WiBX,WBX,USD
+Axiom,AXIOM,USD
+Clams,CLAM,USD
+Dashs,DASHS,USD
+Fidyo,FIDYO,USD
+Flash,FLASH,USD
+Hydro,HYDRO,USD
+Lykke,LKK,USD
+MMXVI,MMXVI,USD
+SaluS,SLS,USD
+Tesra,TSR,USD
+BioBar,BIOB,USD
+Bubble,BUB,USD
+Change,CAG,USD
+ECC,ECC,USD
+Francs,FRN,USD
+Maggie,MAG,USD
+Nectar,NEC,USD
+netBit,NBIT,USD
+Sphere,SPHR,USD
+Wagerr,WGR,USD
+XDE II,XDE2,USD
+BitCore,BTX,USD
+BMChain,BMT,USD
+BTCMoon,BTCM,USD
+Electra,ECA,USD
+LKRCoin,LKRc,USD
+Moneta,MONETA,USD
+Neumark,NEU,USD
+Omicron,OMC,USD
+Sexcoin,SXC,USD
+United Traders Token,UTT,USD
+Bastonet,BSN,USD
+BitTube,TUBE,USD
+BitcoinX,BCX,USD
+BlockCDN,BCDN,USD
+ClubCoin,CLUB,USD
+DarkLisk,DISK,USD
+Etheroll,DICE,USD
+Fazzcoin,FAZZ,USD
+MarxCoin,MARX,USD
+PeepCoin,PCN,USD
+Polybius,PLBT,USD
+Quotient,XQN,USD
+RubleBit,RUBIT,USD
+Rubycoin,RBY,USD
+SegWit2x,B2X,USD
+TopChain,TOPC,USD
+Universa,UTNP,USD
+Voyacoin,VOYA,USD
+Zeitcoin,ZEIT,USD
+AgaveCoin,AGVC,USD
+BNS Token,BNS,USD
+CanYaCoin,CAN,USD
+COMSA [ETH],CMS,USD
+EncrypGen,DNA,USD
+KashhCoin,KASHH,USD
+Lambo Coin,LAMBO,USD
+RoyalCoin,ROYAL,USD
+ShellCoin,SHELL,USD
+SwapToken,TOKEN,USD
+ThoreNext,THX,USD
+Auroracoin,AUR,USD
+Authorship,ATS,USD
+AvatarCoin,AV,USD
+BlazerCoin,BLAZR,USD
+BlockStamp,BST,USD
+ColossusXT,COLX,USD
+FirstBlood,1ST,USD
+Flash Token,FTOKEN,USD
+Fonziecoin,FONZ,USD
+FuturoCoin,FTO,USD
+PrismChain,PRM,USD
+RabbitCoin,RBBT,USD
+SpankChain,SPANK,USD
+SportsCoin,SPORT,USD
+TrickyCoin,TRICK,USD
+Bitcoin God,GOD,USD
+CoinEx Token,CET,USD
+Dinastycoin,DCY,USD
+NewYorkCoin,NYC,USD
+NoLimitCoin,NLC2,USD
+V-Dimension,VOLLAR,USD
+Counterparty,XCP,USD
+Cycling Coin,CYC,USD
+DeltaCredits,DCRE,USD
+Bitcoin Vault,BTCV,USD
+Ethereum Lite,ELITE,USD
+InflationCoin,IFLT,USD
+InvisibleCoin,IVZ,USD
+Super Bitcoin,SBTC,USD
+CryptoBossCoin,CBC,USD
+Ethereum eRush,EER,USD
+EurocoinToken,ECTE,USD
+Exchange Union,XUC,USD
+FrankyWillCoin,FRWC,USD
+GameLeagueCoin,GML,USD
+Halloween Coin,HALLO,USD
+Jibrel Network,JNT,USD
+ThoreCashTRX,TCHTRX,USD
+United Bitcoin,UBTC,USD
+CryptoWorldX Token,CWXT,USD
+Cryptoindex.com 100,CIX100,USD
+Digital Bullion Gold,DBG,USD
+Advanced Internet Blocks,AIB,USD
