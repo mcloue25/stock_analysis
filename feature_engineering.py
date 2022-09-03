@@ -15,35 +15,33 @@ from utils import *
 
 
 def SortinoRatio(df, T):
-    '''Calculates the Sortino ratio from univariate excess returns.
-
+    ''' Calculates the Sortino ratio from univariate excess returns.
     Args:
         df ([float]): The dataframe or pandas series of univariate excess returns.
         T ([integer]): The targeted return. 
     '''
-
-    #downside deviation:
-
     temp = np.minimum(0, df - T)**2
     temp_expectation = np.mean(temp)
     downside_dev = np.sqrt(temp_expectation)
-
     sortino_ratio = np.mean(df - T) / downside_dev
 
-    return(sortino_ratio)
+    return sortino_ratio
 
 
 def calculate_information_ratio(df, window_length):
-    # https://www.youtube.com/watch?v=E6M89IHpmzc
-    # Read in visual results and extract all participant ID's
+    ''' Read in visual results and extract all participant ID's
+        https://www.youtube.com/watch?v=E6M89IHpmzc
+    '''
     spy_df = pd.read_csv("data/csv/SPY.csv", delimiter=',', sep=r', ') 
     spy_df.set_index(["date"], inplace = True)
-    print(spy_df)
 
-    print(list(spy_df.columns))
-    # a-b
+    spy_df["daily_returns"] = spy_df['close'] - spy_df['open'] 
     bench_return = spy_df["daily_returns"]
     bench_return_prod = np.prod(spy_df["daily_returns"] + 1) - 1
+
+    # print('bench_return', bench_return)
+    # print("---------------")
+    # print('bench_return_prod', bench_return_prod)
     df['{}d_information_ratio'.format(window_length)] = df['daily_returns'].rolling(window_length).apply(get_information_ratio, args=(bench_return, bench_return_prod, window_length))
 
     return df
@@ -55,17 +53,8 @@ def get_information_ratio(returns, bench_return, bench_return_prod, window_lengt
     bench_return = bench_return.loc[min(dates) : max(dates)]
     df_return_prod = np.prod(returns + 1) - 1
 
-    # print("BENCH RETURN", bench_return)
-    # print()
-    # print("RETURNS",returns)
-    # print("df prod", df_return_prod)
-    # print("spy prod",bench_return_prod)
-    # print("len df", len(returns))
-    # print("len spy_df", len(bench_return))
-
     tracking_error = (returns - bench_return).std() * np.sqrt(window_length)
     information_ratio = (returns - bench_return_prod) / tracking_error
-    print("Information Ratio:", information_ratio)
 
     return information_ratio
 
@@ -77,8 +66,6 @@ def create_df_from_json(json_path):
     historical_data = data["historicalData"]
 
     data_map = {}
-        
-    # Collect col_names for DF
     keys_list = list(historical_data[0].keys())
     for col_name in keys_list:
         data_map[col_name] = []
@@ -138,11 +125,6 @@ def get_inflation_price_adjustments(df, inflation_df):
 
     df = pd.merge(df, inflation_df, how='left', on='date', suffixes=('', '_delme'))
     df = df[[c for c in df.columns if not c.endswith('_delme')]]
-    # df["CPI_ADJ_PRICE"] = df["CLOSE"] * df["CPIAUCNS_MULTIPLIER"]
-
-    # print(df)
-    # print(list(df.columns))
-    # a-b
     df["cpi_adj_price"] = df["close"] * df["cpiaucns_multiplier"]
     df = df.ffill()
 
@@ -290,8 +272,9 @@ def calculate_historic_volatility(df, window_length):
     return df
 
 
-def calc_volume_fi(df):
-
+def calculate_force_and_comodity_indexes(df):
+    ''' Calculate force index & comodity chanel index for varying day ranges
+    '''
     calc_force_index(df, 7)
     calc_force_index(df, 14)
 
@@ -309,8 +292,9 @@ def calc_force_index(df, window_length):
     return df
 
 
-# Commodity Channel Index 
-def calc_comodity_chanel_index(df, window_length): 
+def calc_comodity_chanel_index(df, window_length):
+    ''' Calculate comodity chanel index over a given period of time
+    ''' 
     df['TP'] = (df['high'] + df['low'] + df['close']) / 3 
     df['sma'] = df['TP'].rolling(window_length).mean()
     df['mad'] = df['TP'].rolling(window_length).apply(lambda x: pd.Series(x).mad())
@@ -343,11 +327,36 @@ def get_crypto_data():
 
 
 def get_dates(coin_name):
+    ''' Return the first & most recent occuring dates for a given coin name
+    '''
     path = "data/other/csv/" + coin_name.lower() + ".csv"
     df = pd.read_csv(path, delimiter=',', sep=r', ')
 
     return(min(df["date"]), max(df["date"]))
 
+
+def generate_features(df):
+    ''' Creates features used to assess a stock
+    '''
+    df = get_inflation_price_adjustments(df, inflation_df)
+    df = calc_volume_and_gain_loss_avgs(df)
+    df = calculate_maximum_drowdown(df)
+    df = calculate_force_and_comodity_indexes(df)
+    df = get_volatility_scores(df)
+
+    # Calculate information ratio
+    # df = calculate_information_ratio(df, 7)
+
+    return df
+
+def json_to_df(json_path):
+    ''' Takes a stock json path & retuns the df
+    '''
+    df = pd.read_csv(json_path, delimiter=',', sep=r', ')
+    df = lowercase_cols(df)
+    df.set_index("date", inplace = True)
+    df = add_all_ta_features(df, open="open", high="high", low="low", close="close", volume="volume")
+    return df
 
 
 def feature_engineering_main():
@@ -355,48 +364,26 @@ def feature_engineering_main():
     # https://github.com/alvarobartt/investpy/issues/467 BLocked by investing.com for multiple calls, use sleep to avoid in future
     # get_crypto_data()
 
+    csv_path = "data/csv/" 
+    json_folder_path = "data/csv/"
+
     # Only needs to be ran if new Inflation CSV is added 
     # calculate_inflation_rates("data/us_inflation_rates/", "CPIAUCNS.csv")
-
     inflation_df = pd.read_csv("data/CPIAUCNS.csv", delimiter=',', sep=r', ')
     inflation_df.set_index(["date"], inplace = True)
 
-    # Might move this into non-main function for general feature engineering
-    json_folder_path = "data/csv/"
-
     for file in os.listdir(json_folder_path):
         json_path = json_folder_path + file
-        df = pd.read_csv(json_path, delimiter=',', sep=r', ')
-        df = lowercase_cols(df)
-        df.set_index("date", inplace = True)
-
-        # Get basic time features which we will use as a base to build more
-        df = add_all_ta_features(df, open="open", high="high", low="low", close="close", volume="volume")
-       
-        csv_path = "data/csv/" 
-
-        # Apply Inflation rates to get objective price 
-        df = get_inflation_price_adjustments(df, inflation_df)
-    
-        # # calculate the volume and 29 avg vol total
-        df = calc_volume_and_gain_loss_avgs(df)
-
-        # df = calculate_maximum_drowdown(df)
-
-        # df = calc_volume_fi(df)
-
-        # Calculate volatility scores
-        # df = get_volatility_scores(df)
-
-        # Calculate information ratio
-        # df = calculate_information_ratio(df, 7)
+        
+        df = json_to_df(json_path)
+        df = generate_features(df)
         
         print(df)
 
-        data = {}
-        data['volume'] = df["volume"]
-        data['20d_vol_avg'] = df["20d_vol_avg"]
-        plot_kp_over_time(data, file)
+        # data = {}
+        # data['volume'] = df["volume"]
+        # data['20d_vol_avg'] = df["20d_vol_avg"]
+        # plot_kp_over_time(data, file)
 
         create_csv(df, csv_path, file)
 
