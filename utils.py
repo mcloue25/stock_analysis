@@ -94,7 +94,7 @@ def import_json(json_path):
 
 
 def create_csv(df, path, name):
-    print("Creating ", name, ".csv")
+    print("Creating ", name)
     file_path = path + name 
     print("HERE", file_path)
     df.to_csv(file_path)
