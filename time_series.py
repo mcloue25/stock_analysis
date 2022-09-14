@@ -12,6 +12,51 @@ from statsmodels.tsa.vector_ar.vecm import coint_johansen
 from utils import *
 
 
+def dataframe_preprocessing(df):
+    ''' # Remove rows with inf's or NaN's & currency
+    '''
+    df.replace([np.inf, -np.inf], np.nan, inplace=True)
+    df.dropna(axis='columns', inplace=True)
+    del df['currency']
+
+    return df
+
+
+def dickey_fuller_assessment(df):
+
+    data = []
+    for col_name in df.columns:
+        results = {}
+        adf, pval, usedlag, nobs, crit_vals, icbest =  adfuller(df[col_name].values)
+        results['column'] = col_name
+        results['adf'] = adf
+        results['nobs'] = nobs
+        results['pval'] = pval
+        results['icbest'] = icbest
+        results['usedlag'] = usedlag
+        for key, value in crit_vals.items():
+            results['crit_vals_{}'.format(key)] = value
+
+        data.append(results)
+
+    adfuller_df = pd.DataFrame(data)
+    adfuller_df.set_index('column', inplace=True)
+
+    print(adfuller_df)
+
+    stationary_cols = adfuller_df.loc[adfuller_df['pval'] < 0.05]
+    nonstationary_cols = adfuller_df.loc[adfuller_df['pval'] > 0.05]
+
+    print('STATIONARY COLUMNS')
+    print()
+    print(stationary_cols)
+    print("------------------------")
+    print()
+    print('NONSTATIONARY COLUMNS')
+    print()
+    print()
+    print(nonstationary_cols)
+
 
 def create_garch_model():
     ''' 
@@ -31,7 +76,7 @@ def cointegration_test_func(df):
     df_types = df.dtypes
     # print(df_types)
     
-    del df['currency']
+    print(df)
     # create_csv(df_types, '', 'dtypes.csv')
 
     johansen_cointegration_test = coint_johansen(df,-1,5)
@@ -40,7 +85,7 @@ def cointegration_test_func(df):
     cvts = johansen_cointegration_test.cvt[:, c[str(1-0.05)]]
     def adjust(val, length= 6): 
         return str(val).ljust(length)
-    print('Column_Name  >  Test_Stat  >  C(95%)  =>  Signif  \n', '--'*25)
+    # print('Column_Name  >  Test_Stat  >  C(95%)  =>  Signif  \n', '--'*25)
     for col, trace, cvt in zip(df.columns, traces, cvts):
         print(adjust(col), '  >  ', adjust(round(trace,2), 9), "  >  ", adjust(cvt, 8), '  => ' , trace > cvt)
 
@@ -55,35 +100,42 @@ def calculate_p_value(series):
     
 
 
-def generate_armina_model(csv_path):
+# def generate_armina_model(df):
 
+#     print(df)
+
+#     vol = df['daily_diff']
+#     print(vol)
+#     calculate_p_value(vol)
+
+
+#     model = ARIMA(vol, order=(5,1,0))
+#     model_fit = model.fit()
+#     # summary of fit model
+#     print(model_fit.summary())
+#     # line plot of residuals
+#     residuals = DataFrame(model_fit.resid)
+#     residuals.plot()
+#     pyplot.show()
+#     # density plot of residuals
+#     residuals.plot(kind='kde')
+#     pyplot.show()
+#     # summary stats of residuals
+#     print(residuals.describe())
+
+
+def assess_feature_worth(csv_path):
     df = pd.read_csv(csv_path)
     df = df.dropna()
     df.set_index('date', inplace=True)
 
-    cointegration_test_func(df)
+    df = dataframe_preprocessing(df)
+
+    df = dickey_fuller_assessment(df)
+
+    # cointegration_test_func(df)
+    generate_armina_model(df)
     a-b
-
-    # print(df)
-
-    # vol = df['daily_diff']
-    # print(vol)
-    # calculate_p_value(vol)
-
-
-    # model = ARIMA(vol, order=(5,1,0))
-    # model_fit = model.fit()
-    # # summary of fit model
-    # print(model_fit.summary())
-    # # line plot of residuals
-    # residuals = DataFrame(model_fit.resid)
-    # residuals.plot()
-    # pyplot.show()
-    # # density plot of residuals
-    # residuals.plot(kind='kde')
-    # pyplot.show()
-    # # summary stats of residuals
-    # print(residuals.describe())
 
 
 def feature_engineering_main():
@@ -92,7 +144,7 @@ def feature_engineering_main():
 
     for csv in os.listdir(csv_folder_path):
         csv_path = csv_folder_path + csv
-        generate_armina_model(csv_path)
+        assess_feature_worth(csv_path)
 
 if __name__ == "__main__":
     feature_engineering_main()

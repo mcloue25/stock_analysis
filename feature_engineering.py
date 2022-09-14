@@ -335,7 +335,7 @@ def get_dates(coin_name):
     return(min(df["date"]), max(df["date"]))
 
 
-def generate_features(df):
+def generate_features(df, inflation_df):
     ''' Creates features used to assess a stock
     '''
     df = get_inflation_price_adjustments(df, inflation_df)
@@ -376,7 +376,7 @@ def feature_engineering_main():
         json_path = json_folder_path + file
         
         df = json_to_df(json_path)
-        df = generate_features(df)
+        df = generate_features(df, inflation_df)
         
         print(df)
 
